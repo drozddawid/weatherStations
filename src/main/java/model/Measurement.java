@@ -9,6 +9,10 @@ import service.LocalDateSerializer;
 
 import java.time.LocalDate;
 
+/**
+ * Represents single measurement. Used to store data related to measurements.
+ */
+
 public class Measurement {
     private int stationID;
     private int pressure;

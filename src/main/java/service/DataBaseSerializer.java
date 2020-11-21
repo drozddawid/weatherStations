@@ -5,6 +5,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
 import java.io.IOException;
 
+/**
+ * Class for serializing DataBase.class to *.json file
+ */
+
 public class DataBaseSerializer {
     public DataBaseSerializer() {
     }

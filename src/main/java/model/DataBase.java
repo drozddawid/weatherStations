@@ -2,6 +2,11 @@ package model;
 
 import java.util.LinkedList;
 
+/**
+ * Represents data base. Used for storing all stations.
+ */
+
+
 public class DataBase {
     private LinkedList<Station> stations;
 

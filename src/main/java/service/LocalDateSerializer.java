@@ -8,6 +8,10 @@ import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * Class for serializing LocalDate.class to *.json file
+ */
+
 public class LocalDateSerializer extends StdSerializer<LocalDate> {
 
     public LocalDateSerializer() {
